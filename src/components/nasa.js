@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import Nasatwo from "./nasatwo.js";
+import {Style} from "./styled.js";
 
 export default function Nasa(){
     const[mydata, setmydata] = useState();
@@ -16,10 +17,10 @@ export default function Nasa(){
     }, [])
     
    
-   return (<div className ="photo">
+   return (<Style>
     
  <Nasatwo
  data={mydata}/>
- </div>
+ </Style>
    )
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import Nasa from "./components/nasa.js"
-
+import Nasa from "./components/nasa.js";
+import styled from 'styled-components';
 function App() {
   
   return (
